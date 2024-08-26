@@ -1,0 +1,28 @@
+{% extends "templates/web.html" %}
+
+
+{% block page_content %}
+
+
+    <div class="clearfix">
+        {% if doc.car_image  %}
+            <img src="{{doc.car_image}}" class="col-md-6 float-md-end mb-3 ms-md-3" >
+        {% else %}
+            <Span style="color: red;"> No Image!! </Span>
+        {% endif %}
+    
+        <p>
+        Color :- {{color}}
+        </p>
+    
+        <p>
+        Color :- {{title}}
+        </p>
+
+        <a class="btn btn-info" href="/book-a-ride/new?vehical={{doc.name}}"> Book Ride</a>
+    
+    
+    </div>
+{% endblock %}
+
+<!-- this is a sample default web page template -->
