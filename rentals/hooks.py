@@ -6,6 +6,8 @@ app_email = "tushat@mail.hybrowlabs.com"
 app_license = "mit"
 # required_apps = []
 
+fixtures = ["Rentals Settings"]
+
 # Includes in <head>
 # ------------------
 

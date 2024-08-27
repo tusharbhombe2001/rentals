@@ -34,8 +34,7 @@
    "fieldname": "phone_number",
    "fieldtype": "Phone",
    "in_list_view": 1,
-   "label": "Phone Number",
-   "reqd": 1
+   "label": "Phone Number"
   },
   {
    "fieldname": "licenses",
@@ -62,7 +61,7 @@
  "image_field": "driver_profile_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-21 16:40:40.083596",
+ "modified": "2024-08-26 18:32:24.646082",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Driver",
